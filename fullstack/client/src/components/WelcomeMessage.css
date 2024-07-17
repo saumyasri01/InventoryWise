@@ -1,0 +1,65 @@
+/* src/components/WelcomeMessage.css */
+.welcome-message {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    /*background-color: #faf8f9;*/
+    background-image: url('bg2.png');
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome-message h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tagline {
+    color: #3498db;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .features {
+    background-color: #ecf0f1;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .features h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .features ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .features li {
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  
+  .features li::before {
+    content: '•';
+    color: #3498db;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: -2px;
+  }
+  
+  .outro {
+    font-style: italic;
+    color: #34495e;
+  }
